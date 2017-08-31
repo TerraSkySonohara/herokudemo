@@ -12,7 +12,7 @@ import java.util.List;
 
 @Slf4j
 @RestController
-public class SampleController {
+public class TestController {
 
     @RequestMapping(value = "/test", method = RequestMethod.GET)
     public List<String> testService(HttpServletRequest req) throws Exception {
